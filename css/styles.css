@@ -77,5 +77,33 @@ ul {
   list-style: none;
 }
 
+#character-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 
+#character-list li {
+  width: 235px; 
+  margin: 15px 8px 0 8px;
+  list-style: none;
+  border: 1px solid rgb(204, 201, 201);
+  border-radius: 5px;
+}
+
+#character-list li img {
+  width: 95%; 
+  height: 80%;
+  margin: 5px 5px 0 5px;
+}
+
+#character-list li p {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+#character-list li p span {
+  font-weight: bold;
+  font-size: 15px;
+}
